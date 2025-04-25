@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|c:\\\u043A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\asp.net\\lab2 oo\u043F\\dailymealplanner\\dailymealplanner\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|c:\\\u043A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\asp.net\\lab2 oo\u043F\\dailymealplanner\\dailymealplanner\\data\\foodcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|solutionrelative:data\\foodcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|c:\\\u043A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\asp.net\\lab2 oo\u043F\\dailymealplanner\\dailymealplanner\\data\\importxmlfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|solutionrelative:data\\importxmlfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T09:58:42.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FoodCatalog.cs",
+              "DocumentMoniker": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\Data\\FoodCatalog.cs",
+              "RelativeDocumentMoniker": "Data\\FoodCatalog.cs",
+              "ToolTip": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\Data\\FoodCatalog.cs",
+              "RelativeToolTip": "Data\\FoodCatalog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:50:04.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ImportXmlFood.cs",
+              "DocumentMoniker": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\Data\\ImportXmlFood.cs",
+              "RelativeDocumentMoniker": "Data\\ImportXmlFood.cs",
+              "ToolTip": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\Data\\ImportXmlFood.cs",
+              "RelativeToolTip": "Data\\ImportXmlFood.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:49:57.082Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

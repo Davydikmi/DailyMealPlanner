@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f1f3f6;
+    color: #333;
+}
+
+.planner-wrapper {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+
+.card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.inputs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+    button:hover {
+        background: #45a045;
+    }
+
+.result {
+    font-weight: bold;
+    color: #006400;
+}
+
+.catalog-and-planner {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.catalog, .planner {
+    flex: 1;
+    min-width: 300px;
+}
+
+.catalog-list {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.category {
+    margin-bottom: 10px;
+}
+
+    .category h4 {
+        margin-bottom: 5px;
+        color: #0077cc;
+    }
+
+.food-item {
+    background: #eaf4ff;
+    margin: 4px 0;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: grab;
+    transition: background 0.2s ease;
+}
+
+    .food-item:hover {
+        background: #d4eaff;
+    }
+
+.meals-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+.meal {
+    min-height: 150px;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px dashed #ccc;
+}
+
+    .meal h3 {
+        margin-top: 0;
+        color: #555;
+    }
+
+.summary p {
+    margin-bottom: 12px;
+}

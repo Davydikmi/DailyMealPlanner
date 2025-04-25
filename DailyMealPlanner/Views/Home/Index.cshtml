@@ -1,0 +1,47 @@
+﻿<div class="planner-wrapper">
+    <header>
+        <h1>🥗 Daily Meal Planner</h1>
+    </header>
+
+    <section class="user-form card">
+        <h2>👤 Your Info</h2>
+        <div class="inputs">
+            <input type="number" id="weight" placeholder="Weight (kg)" />
+            <input type="number" id="height" placeholder="Height (cm)" />
+            <input type="number" id="age" placeholder="Age" />
+            <select id="activity">
+                <option value="1.2">Low</option>
+                <option value="1.375">Normal</option>
+                <option value="1.55">Average</option>
+                <option value="1.725">High</option>
+            </select>
+            <button onclick="calculateCalories()">Calculate</button>
+        </div>
+        <p id="calorieResult" class="result"></p>
+    </section>
+
+    <section class="catalog-and-planner">
+        <div class="catalog card">
+            <h2>🍎 Food Catalog</h2>
+            <input type="text" id="search" placeholder="Search..." oninput="filterCatalog()" />
+            <div id="catalog-list" class="catalog-list">
+                <!-- КАТЕГОРИИ И ПРОДУКТЫ-->
+            </div>
+        </div>
+
+        <div class="planner card">
+            <h2>🕒 Meal Plan</h2>
+            <div class="meals-grid">
+                <div class="meal" id="breakfast"><h3>Breakfast</h3></div>
+                <div class="meal" id="lunch"><h3>Lunch</h3></div>
+                <div class="meal" id="dinner"><h3>Dinner</h3></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="summary card">
+        <h2>📊 Summary</h2>
+        <p id="totals">Total Calories, Proteins, Fats, Carbs will be shown here.</p>
+        <button onclick="exportPlan()">Export Plan</button>
+    </section>
+</div>
