@@ -1,35 +1,34 @@
-﻿function calculateCalories() {
-    const weight = parseFloat(document.getElementById("weight").value);
-    const height = parseFloat(document.getElementById("height").value);
-    const age = parseFloat(document.getElementById("age").value);
-    const activity = parseFloat(document.getElementById("activity").value);
-
-    if (!weight || !height || !age || !activity) return;
-
-    const bmr = 447.593 + 9.247 * weight + 3.098 * height - 4.330 * age;
-    const dailyCalories = Math.round(bmr * activity);
-
-    document.getElementById("calorieResult").innerText = `Your daily calorie rate: ${dailyCalories} kcal`;
-}
-
-function filterCatalog() {
+﻿function filterCatalog() {
     const query = document.getElementById("search").value.toLowerCase();
-    document.querySelectorAll(".food-item").forEach(item => {
-        const name = item.textContent.toLowerCase();
-        item.style.display = name.includes(query) ? "block" : "none";
+    const categories = document.querySelectorAll(".category");
+
+    categories.forEach(category => {
+        const products = category.querySelectorAll(".food-item");
+        let hasVisibleProduct = false;
+
+        products.forEach(product => {
+            const productText = product.textContent.toLowerCase();
+            if (productText.includes(query)) {
+                product.style.display = "block";
+                hasVisibleProduct = true;
+            } else {
+                product.style.display = "none";
+            }
+        });
+
+        if (hasVisibleProduct) {
+            category.style.display = "block";
+        } else {
+            category.style.display = "none";
+        }
     });
 }
 
-function exportPlan() {
-    alert("Here you'd trigger export logic (PDF, XML, etc).");
-}
 
 // -------- DRAG & DROP --------
-
-document.addEventListener("DOMContentLoaded", () => {
-    setupDragAndDrop();
-});
-
+function onDragStart(event) {
+    event.dataTransfer.setData("text/html", event.target.outerHTML);
+}
 function setupDragAndDrop() {
     document.querySelectorAll(".food-item").forEach(item => {
         item.setAttribute("draggable", "true");
@@ -51,12 +50,47 @@ function setupDragAndDrop() {
         area.addEventListener("drop", e => {
             e.preventDefault();
             area.style.background = "#f9f9f9";
-            const html = e.dataTransfer.getData("text/plain");
+
+            const html = e.dataTransfer.getData("text/html");
             const node = document.createRange().createContextualFragment(html).firstChild;
+
+            // Убираем возможность снова перетаскивать внутри meal
             node.classList.add("dropped");
             node.setAttribute("draggable", "false");
-            node.addEventListener("click", () => node.remove()); // allow remove on click
+
+            // Разрешаем клик для удаления
+            node.addEventListener("click", () => node.remove());
+
             area.appendChild(node);
         });
     });
 }
+
+
+//-------- РАСКРЫТИЕ КАТЕГОРИЙ НА ПРОДУКТЫ --------
+function toggleProducts(header) {
+    const productsDiv = header.nextElementSibling;
+
+    if (productsDiv.classList.contains('hidden')) {
+        productsDiv.classList.remove('hidden');
+        productsDiv.classList.add('visible');
+    } else {
+        productsDiv.classList.remove('visible');
+        productsDiv.classList.add('hidden');
+    }
+}
+
+function setupCategoryClickHandlers() {
+    const headers = document.querySelectorAll(".category-header");
+
+    headers.forEach(header => {
+        header.addEventListener("click", function () {
+            toggleProducts(header);
+        });
+    });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    setupCategoryClickHandlers();
+    setupDragAndDrop();
+});

@@ -1,31 +1,54 @@
-﻿<div class="planner-wrapper">
+﻿@model DailyMealPlanner.Models.HomeViewModel
+
+
+<body>
+<div class="planner-wrapper">
     <header>
         <h1>🥗 Daily Meal Planner</h1>
     </header>
-
-    <section class="user-form card">
-        <h2>👤 Your Info</h2>
-        <div class="inputs">
-            <input type="number" id="weight" placeholder="Weight (kg)" />
-            <input type="number" id="height" placeholder="Height (cm)" />
-            <input type="number" id="age" placeholder="Age" />
-            <select id="activity">
-                <option value="1.2">Low</option>
-                <option value="1.375">Normal</option>
-                <option value="1.55">Average</option>
-                <option value="1.725">High</option>
-            </select>
-            <button onclick="calculateCalories()">Calculate</button>
-        </div>
-        <p id="calorieResult" class="result"></p>
-    </section>
+        <section class="user-form card">
+            <h2>👤 Your Info</h2>
+            <form asp-action="Index" method="post">
+                <div class="inputs">
+                    <input asp-for="person.weight" type="number" placeholder="Weight (kg)" />
+                    <input asp-for="person.height" type="number" placeholder="Height (cm)" />
+                    <input asp-for="person.age" type="number" placeholder="Age" />
+                    <select asp-for="person.Activity">
+                        <option value="1.2">Low</option>
+                        <option value="1.375">Normal</option>
+                        <option value="1.55">Average</option>
+                        <option value="1.725">High</option>
+                    </select>
+                    <button type="submit">Calculate</button>
+                </div>
+            </form>
+            
+            <p class="result">Your daily calorie rate: @Model.person.calories kcal</p>
+            
+        </section>
 
     <section class="catalog-and-planner">
         <div class="catalog card">
             <h2>🍎 Food Catalog</h2>
             <input type="text" id="search" placeholder="Search..." oninput="filterCatalog()" />
             <div id="catalog-list" class="catalog-list">
-                <!-- КАТЕГОРИИ И ПРОДУКТЫ-->
+                @foreach (var category in Model.mealService.foodcatalog.Categories)
+                {
+                    <div class="category">
+                        <h4 class="category-header">
+                            @category.Name
+                        </h4>
+                        <div class="products hidden">
+                            @foreach (var product in category.Products)
+                            {
+                                    <div class="food-item" draggable="true" data-product-id="@product.Name" ondragstart="onDragStart(event)">
+                                    <strong>@product.Name</strong><br />
+                                    @product.Gramms г, Б: @product.Protein г, Ж: @product.Fats г, У: @product.Carbs г, Ккал: @product.Calories
+                                </div>
+                            }
+                        </div>
+                    </div>
+                }
             </div>
         </div>
 
@@ -45,3 +68,6 @@
         <button onclick="exportPlan()">Export Plan</button>
     </section>
 </div>
+
+<script src="js/site.js"></script>
+</body>

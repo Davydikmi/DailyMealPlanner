@@ -32,3 +32,4 @@ C:\Картинка\Программирование\ASP.NET\Lab2 OOП\DailyMeal
 C:\Картинка\Программирование\ASP.NET\Lab2 OOП\DailyMealPlanner\DailyMealPlanner\obj\Debug\net8.0\DailyMealPlanner.pdb
 C:\Картинка\Программирование\ASP.NET\Lab2 OOП\DailyMealPlanner\DailyMealPlanner\obj\Debug\net8.0\DailyMealPlanner.genruntimeconfig.cache
 C:\Картинка\Программирование\ASP.NET\Lab2 OOП\DailyMealPlanner\DailyMealPlanner\obj\Debug\net8.0\ref\DailyMealPlanner.dll
+C:\Картинка\Программирование\ASP.NET\Lab2 OOП\DailyMealPlanner\DailyMealPlanner\obj\Debug\net8.0\DailyMealPlanner.sourcelink.json

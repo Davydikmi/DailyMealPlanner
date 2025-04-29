@@ -6,9 +6,8 @@ body {
 }
 
 .planner-wrapper {
-    max-width: 1200px;
+    min-width: 1400px;
     margin: 30px auto;
-    padding: 0 20px;
 }
 
 header {
@@ -75,7 +74,7 @@ button {
     margin-bottom: 10px;
 }
 
-    .category h4 {
+.category h4 {
         margin-bottom: 5px;
         color: #0077cc;
     }
@@ -89,25 +88,28 @@ button {
     transition: background 0.2s ease;
 }
 
-    .food-item:hover {
+.food-item:hover {
         background: #d4eaff;
     }
 
 .meals-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: nowrap;
 }
-
 .meal {
-    min-height: 150px;
+    flex: 1 1 0;
+    min-width: 0;
     background: #f9f9f9;
     padding: 10px;
     border-radius: 10px;
     border: 1px dashed #ccc;
+    text-align: center;
+    overflow: hidden; 
 }
 
-    .meal h3 {
+.meal h3 {
         margin-top: 0;
         color: #555;
     }
@@ -115,3 +117,34 @@ button {
 .summary p {
     margin-bottom: 12px;
 }
+
+.products {
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 2px solid #e0e0e0;
+    display:block;
+    transition: all 0.3s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.category h4 {
+    cursor: pointer;
+    user-select: none;
+    padding: 8px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.category h4:hover {
+        background-color: #e0e0e0;
+    }
+
+

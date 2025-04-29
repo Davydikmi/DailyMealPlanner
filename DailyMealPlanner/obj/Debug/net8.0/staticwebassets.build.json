@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "c+OWQr7FuVI22OKA/hAsPiAt8tJaWjdmsXqGg6pLhSE=",
+  "Hash": "pEWT1Fzd1O+BzC/jUhveh6JDJmrA4Tb9/mhWOdtgNRo=",
   "Source": "DailyMealPlanner",
   "BasePath": "_content/DailyMealPlanner",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "edzrzryt5t",
-      "Integrity": "0poqQxCFA/YQF3xScEk53Sqo9bGn1Uxkne3ebKxUrJA=",
+      "Fingerprint": "68x77cjr31",
+      "Integrity": "9qruB7ItQ84Km2io2fXPgu5dvw/QAqYh3mUKOsXzo9o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vbhtd9ni64",
-      "Integrity": "BSLNMA0VX+O61ZNBZ05q0Ye0i4entNiO6Ucqcly+dPg=",
+      "Fingerprint": "sss8yk83jx",
+      "Integrity": "zLU89sOvO+J0gM/2Bz1Tm0eIPJaaZUxAP8EHj2lR4aY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -1321,6 +1321,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/site.68x77cjr31.css",
+      "AssetFile": "C:\\Картинка\\Программирование\\ASP.NET\\Lab2 OOП\\DailyMealPlanner\\DailyMealPlanner\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2393"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9qruB7ItQ84Km2io2fXPgu5dvw/QAqYh3mUKOsXzo9o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 22:06:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "68x77cjr31"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9qruB7ItQ84Km2io2fXPgu5dvw/QAqYh3mUKOsXzo9o="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Картинка\\Программирование\\ASP.NET\\Lab2 OOП\\DailyMealPlanner\\DailyMealPlanner\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1331,7 +1376,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1894"
+          "Value": "2393"
         },
         {
           "Name": "Content-Type",
@@ -1339,11 +1384,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0poqQxCFA/YQF3xScEk53Sqo9bGn1Uxkne3ebKxUrJA=\""
+          "Value": "\"9qruB7ItQ84Km2io2fXPgu5dvw/QAqYh3mUKOsXzo9o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 20:22:55 GMT"
+          "Value": "Mon, 28 Apr 2025 22:06:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1353,52 +1398,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0poqQxCFA/YQF3xScEk53Sqo9bGn1Uxkne3ebKxUrJA="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.edzrzryt5t.css",
-      "AssetFile": "C:\\Картинка\\Программирование\\ASP.NET\\Lab2 OOП\\DailyMealPlanner\\DailyMealPlanner\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1894"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0poqQxCFA/YQF3xScEk53Sqo9bGn1Uxkne3ebKxUrJA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 20:22:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "edzrzryt5t"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-0poqQxCFA/YQF3xScEk53Sqo9bGn1Uxkne3ebKxUrJA="
+          "Value": "sha256-9qruB7ItQ84Km2io2fXPgu5dvw/QAqYh3mUKOsXzo9o="
         }
       ]
     },
@@ -1659,7 +1659,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2294"
+          "Value": "3106"
         },
         {
           "Name": "Content-Type",
@@ -1667,11 +1667,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BSLNMA0VX+O61ZNBZ05q0Ye0i4entNiO6Ucqcly+dPg=\""
+          "Value": "\"zLU89sOvO+J0gM/2Bz1Tm0eIPJaaZUxAP8EHj2lR4aY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 20:24:26 GMT"
+          "Value": "Tue, 29 Apr 2025 20:47:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1681,12 +1681,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-BSLNMA0VX+O61ZNBZ05q0Ye0i4entNiO6Ucqcly+dPg="
+          "Value": "sha256-zLU89sOvO+J0gM/2Bz1Tm0eIPJaaZUxAP8EHj2lR4aY="
         }
       ]
     },
     {
-      "Route": "js/site.vbhtd9ni64.js",
+      "Route": "js/site.sss8yk83jx.js",
       "AssetFile": "C:\\Картинка\\Программирование\\ASP.NET\\Lab2 OOП\\DailyMealPlanner\\DailyMealPlanner\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1696,7 +1696,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2294"
+          "Value": "3106"
         },
         {
           "Name": "Content-Type",
@@ -1704,11 +1704,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BSLNMA0VX+O61ZNBZ05q0Ye0i4entNiO6Ucqcly+dPg=\""
+          "Value": "\"zLU89sOvO+J0gM/2Bz1Tm0eIPJaaZUxAP8EHj2lR4aY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 20:24:26 GMT"
+          "Value": "Tue, 29 Apr 2025 20:47:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1718,7 +1718,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vbhtd9ni64"
+          "Value": "sss8yk83jx"
         },
         {
           "Name": "label",
@@ -1726,7 +1726,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BSLNMA0VX+O61ZNBZ05q0Ye0i4entNiO6Ucqcly+dPg="
+          "Value": "sha256-zLU89sOvO+J0gM/2Bz1Tm0eIPJaaZUxAP8EHj2lR4aY="
         }
       ]
     },

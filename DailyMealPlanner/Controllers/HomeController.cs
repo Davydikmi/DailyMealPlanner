@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using DailyMealPlanner.Data;
 using DailyMealPlanner.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,9 +14,19 @@ namespace DailyMealPlanner.Controllers
             _logger = logger;
         }
 
+
+        [HttpPost]  // ѕост запрос успешно проходит, но результат не отображаетс€ на странице
+        public IActionResult Index(HomeViewModel model)
+        {
+            model.person.calories = model.person.CalculateCalories();
+            Console.WriteLine("пост прошел успешно");
+            return View(model);
+        }
+
         public IActionResult Index()
         {
-            return View();
+            HomeViewModel model = new HomeViewModel();
+            return View(model);
         }
 
         public IActionResult Privacy()

@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/DailyMealPlanner/css/site.68x77cjr31.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"68x77cjr31"},{"Name":"integrity","Value":"sha256-9qruB7ItQ84Km2io2fXPgu5dvw/QAqYh3mUKOsXzo9o="},{"Name":"label","Value":"_content/DailyMealPlanner/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2393"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229qruB7ItQ84Km2io2fXPgu5dvw/QAqYh3mUKOsXzo9o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 22:06:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DailyMealPlanner/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0poqQxCFA/YQF3xScEk53Sqo9bGn1Uxkne3ebKxUrJA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1894"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00220poqQxCFA/YQF3xScEk53Sqo9bGn1Uxkne3ebKxUrJA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 20:22:55 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/DailyMealPlanner/css/site.edzrzryt5t.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"edzrzryt5t"},{"Name":"integrity","Value":"sha256-0poqQxCFA/YQF3xScEk53Sqo9bGn1Uxkne3ebKxUrJA="},{"Name":"label","Value":"_content/DailyMealPlanner/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1894"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00220poqQxCFA/YQF3xScEk53Sqo9bGn1Uxkne3ebKxUrJA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 20:22:55 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9qruB7ItQ84Km2io2fXPgu5dvw/QAqYh3mUKOsXzo9o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2393"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229qruB7ItQ84Km2io2fXPgu5dvw/QAqYh3mUKOsXzo9o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 22:06:40 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DailyMealPlanner/DailyMealPlanner.a9klvnyazx.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DailyMealPlanner.a9klvnyazx.bundle.scp.css'))</AssetFile>
@@ -39,14 +39,14 @@
     <StaticWebAssetEndpoint Include="_content/DailyMealPlanner/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BSLNMA0VX\u002BO61ZNBZ05q0Ye0i4entNiO6Ucqcly\u002BdPg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2294"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022BSLNMA0VX\u002BO61ZNBZ05q0Ye0i4entNiO6Ucqcly\u002BdPg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 20:24:26 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zLU89sOvO\u002BJ0gM/2Bz1Tm0eIPJaaZUxAP8EHj2lR4aY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3106"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022zLU89sOvO\u002BJ0gM/2Bz1Tm0eIPJaaZUxAP8EHj2lR4aY=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 20:47:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/DailyMealPlanner/js/site.vbhtd9ni64.js">
+    <StaticWebAssetEndpoint Include="_content/DailyMealPlanner/js/site.sss8yk83jx.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vbhtd9ni64"},{"Name":"integrity","Value":"sha256-BSLNMA0VX\u002BO61ZNBZ05q0Ye0i4entNiO6Ucqcly\u002BdPg="},{"Name":"label","Value":"_content/DailyMealPlanner/js/site.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2294"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022BSLNMA0VX\u002BO61ZNBZ05q0Ye0i4entNiO6Ucqcly\u002BdPg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 20:24:26 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sss8yk83jx"},{"Name":"integrity","Value":"sha256-zLU89sOvO\u002BJ0gM/2Bz1Tm0eIPJaaZUxAP8EHj2lR4aY="},{"Name":"label","Value":"_content/DailyMealPlanner/js/site.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3106"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022zLU89sOvO\u002BJ0gM/2Bz1Tm0eIPJaaZUxAP8EHj2lR4aY=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 20:47:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DailyMealPlanner/lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css'))</AssetFile>
