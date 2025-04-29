@@ -8,22 +8,22 @@
     </header>
         <section class="user-form card">
             <h2>👤 Your Info</h2>
-            <form asp-action="Index" method="post">
-                <div class="inputs">
-                    <input asp-for="person.weight" type="number" placeholder="Weight (kg)" />
-                    <input asp-for="person.height" type="number" placeholder="Height (cm)" />
-                    <input asp-for="person.age" type="number" placeholder="Age" />
-                    <select asp-for="person.Activity">
-                        <option value="1.2">Low</option>
-                        <option value="1.375">Normal</option>
-                        <option value="1.55">Average</option>
-                        <option value="1.725">High</option>
-                    </select>
-                    <button type="submit">Calculate</button>
-                </div>
-            </form>
-            
-            <p class="result">Your daily calorie rate: @Model.person.calories kcal</p>
+
+            <div class="inputs">
+                <input type="number" id="weight" placeholder="Weight (kg)" />
+                <input type="number" id="height" placeholder="Height (cm)" />
+                <input type="number" id="age" placeholder="Age" />
+                <select id="activity">
+                    <option value="1.2">Low</option>
+                    <option value="1.375">Normal</option>
+                    <option value="1.55">Average</option>
+                    <option value="1.725">High</option>
+                </select>
+                <button type="button" id="calc-btn">Calculate</button>
+            </div>
+
+            <p id="calorieResult" class="result"></p>
+
             
         </section>
 

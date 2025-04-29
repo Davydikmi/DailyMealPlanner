@@ -14,14 +14,13 @@ namespace DailyMealPlanner.Controllers
             _logger = logger;
         }
 
-
-        [HttpPost]  // ѕост запрос успешно проходит, но результат не отображаетс€ на странице
-        public IActionResult Index(HomeViewModel model)
+        [HttpPost]
+        public JsonResult CalculateCalories([FromBody] Person person)
         {
-            model.person.calories = model.person.CalculateCalories();
-            Console.WriteLine("пост прошел успешно");
-            return View(model);
+            person.CalculateCalories();
+            return Json(new { calories = person.calories });
         }
+
 
         public IActionResult Index()
         {

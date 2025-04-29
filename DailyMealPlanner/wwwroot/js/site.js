@@ -1,4 +1,28 @@
-﻿function filterCatalog() {
+﻿document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("calc-btn").addEventListener("click", async () => {
+        const weight = parseFloat(document.getElementById("weight").value);
+        const height = parseFloat(document.getElementById("height").value);
+        const age = parseInt(document.getElementById("age").value);
+        const activity = parseFloat(document.getElementById("activity").value);
+
+        const response = await fetch("/Home/CalculateCalories", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({ weight, height, age, activity })
+        });
+
+        if (response.ok) {
+            const data = await response.json();
+            document.getElementById("calorieResult").innerText = `Your daily calorie rate: ${data.calories} kcal`;
+        } else {
+            document.getElementById("calorieResult").innerText = "Calculation failed.";
+        }
+    });
+});
+
+function filterCatalog() {
     const query = document.getElementById("search").value.toLowerCase();
     const categories = document.querySelectorAll(".category");
 

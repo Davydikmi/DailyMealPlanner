@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pEWT1Fzd1O+BzC/jUhveh6JDJmrA4Tb9/mhWOdtgNRo=",
+  "Hash": "+DK8t2ko2MMRu5hFj1rLsUIamfsE9U/03qwmIW+B5FA=",
   "Source": "DailyMealPlanner",
   "BasePath": "_content/DailyMealPlanner",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "sss8yk83jx",
-      "Integrity": "zLU89sOvO+J0gM/2Bz1Tm0eIPJaaZUxAP8EHj2lR4aY=",
+      "Fingerprint": "3uol9k6pyi",
+      "Integrity": "BXZMa0AEMy/VC4O580pORWFoeIhsL01YdPYFFw+mYSo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -1649,6 +1649,51 @@
       ]
     },
     {
+      "Route": "js/site.3uol9k6pyi.js",
+      "AssetFile": "C:\\Картинка\\Программирование\\ASP.NET\\Lab2 OOП\\DailyMealPlanner\\DailyMealPlanner\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4147"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BXZMa0AEMy/VC4O580pORWFoeIhsL01YdPYFFw+mYSo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 21:05:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3uol9k6pyi"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BXZMa0AEMy/VC4O580pORWFoeIhsL01YdPYFFw+mYSo="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "C:\\Картинка\\Программирование\\ASP.NET\\Lab2 OOП\\DailyMealPlanner\\DailyMealPlanner\\wwwroot\\js\\site.js",
       "Selectors": [],
@@ -1659,7 +1704,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3106"
+          "Value": "4147"
         },
         {
           "Name": "Content-Type",
@@ -1667,11 +1712,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zLU89sOvO+J0gM/2Bz1Tm0eIPJaaZUxAP8EHj2lR4aY=\""
+          "Value": "\"BXZMa0AEMy/VC4O580pORWFoeIhsL01YdPYFFw+mYSo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 20:47:50 GMT"
+          "Value": "Tue, 29 Apr 2025 21:05:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1681,52 +1726,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zLU89sOvO+J0gM/2Bz1Tm0eIPJaaZUxAP8EHj2lR4aY="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.sss8yk83jx.js",
-      "AssetFile": "C:\\Картинка\\Программирование\\ASP.NET\\Lab2 OOП\\DailyMealPlanner\\DailyMealPlanner\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3106"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zLU89sOvO+J0gM/2Bz1Tm0eIPJaaZUxAP8EHj2lR4aY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 20:47:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "sss8yk83jx"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-zLU89sOvO+J0gM/2Bz1Tm0eIPJaaZUxAP8EHj2lR4aY="
+          "Value": "sha256-BXZMa0AEMy/VC4O580pORWFoeIhsL01YdPYFFw+mYSo="
         }
       ]
     },

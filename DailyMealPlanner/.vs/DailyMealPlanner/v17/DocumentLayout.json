@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|c:\\\u043A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\asp.net\\lab2 oo\u043F\\dailymealplanner\\dailymealplanner\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|c:\\\u043A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\asp.net\\lab2 oo\u043F\\dailymealplanner\\dailymealplanner\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|c:\\\u043A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\asp.net\\lab2 oo\u043F\\dailymealplanner\\dailymealplanner\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|c:\\\u043A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\asp.net\\lab2 oo\u043F\\dailymealplanner\\dailymealplanner\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "site.css",
               "DocumentMoniker": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -67,13 +67,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-27T19:56:30.646Z",
               "EditorCaption": ""
@@ -86,7 +86,7 @@
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
               "ToolTip": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\wwwroot\\js\\site.js",
               "RelativeToolTip": "wwwroot\\js\\site.js",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-04-28T22:43:23.169Z",
               "EditorCaption": ""
@@ -99,7 +99,7 @@
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAqwA4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T19:57:13.61Z",
               "EditorCaption": ""
@@ -114,8 +114,7 @@
               "RelativeToolTip": "Data\\MealService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T22:08:07.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T22:08:07.874Z"
             },
             {
               "$type": "Document",
@@ -125,7 +124,7 @@
               "RelativeDocumentMoniker": "Data\\Person.cs",
               "ToolTip": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\Data\\Person.cs",
               "RelativeToolTip": "Data\\Person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T20:04:27.092Z",
               "EditorCaption": ""
