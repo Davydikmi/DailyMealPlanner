@@ -6,7 +6,6 @@ namespace DailyMealPlanner.Models
     {
         public Person person { get; set; } = new Person();
         public MealService mealService { get; set; } = new MealService();
-
     }
 
 }

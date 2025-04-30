@@ -83,13 +83,27 @@ function setupDragAndDrop() {
             node.setAttribute("draggable", "false");
 
             // Разрешаем клик для удаления
-            node.addEventListener("click", () => node.remove());
+            node.addEventListener("dblclick", () => node.remove());
 
             area.appendChild(node);
         });
     });
 }
 
+function updateNutrition(input) {
+    const grams = parseFloat(input.value) || 0;
+    const container = input.closest(".food-item");
+
+    const protein = parseFloat(container.dataset.protein);
+    const fats = parseFloat(container.dataset.fats);
+    const carbs = parseFloat(container.dataset.carbs);
+    const calories = parseFloat(container.dataset.calories);
+
+    container.querySelector(".protein").textContent = (protein * grams / 100.0).toFixed(1);
+    container.querySelector(".fats").textContent = (fats * grams / 100.0).toFixed(1);
+    container.querySelector(".carbs").textContent = (carbs * grams / 100).toFixed(1);
+    container.querySelector(".calories").textContent = (calories * grams / 100.0).toFixed(0);
+}
 
 //-------- РАСКРЫТИЕ КАТЕГОРИЙ НА ПРОДУКТЫ --------
 function toggleProducts(header) {
@@ -118,3 +132,4 @@ document.addEventListener("DOMContentLoaded", () => {
     setupCategoryClickHandlers();
     setupDragAndDrop();
 });
+

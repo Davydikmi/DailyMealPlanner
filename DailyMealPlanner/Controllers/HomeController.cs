@@ -21,6 +21,24 @@ namespace DailyMealPlanner.Controllers
             return Json(new { calories = person.calories });
         }
 
+        [HttpPost]
+        public JsonResult ExportPlan([FromBody] MealService meals)
+        {
+            var result = new
+            {
+                Total = new
+                {
+                    Calories = meals.TotalDayCalories,
+                    Protein = meals.TotalDayProtein,
+                    Fats = meals.TotalDayFats,
+                    Carbs = meals.TotalDayCarbs
+                }
+            };
+            Console.WriteLine("Кол-во калорий в приеме пищи: " + result.Total.Calories);
+            return Json(result);
+        }
+
+
 
         public IActionResult Index()
         {

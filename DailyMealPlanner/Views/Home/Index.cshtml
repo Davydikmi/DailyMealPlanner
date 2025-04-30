@@ -18,6 +18,7 @@
                     <option value="1.375">Normal</option>
                     <option value="1.55">Average</option>
                     <option value="1.725">High</option>
+
                 </select>
                 <button type="button" id="calc-btn">Calculate</button>
             </div>
@@ -41,10 +42,32 @@
                         <div class="products hidden">
                             @foreach (var product in category.Products)
                             {
-                                    <div class="food-item" draggable="true" data-product-id="@product.Name" ondragstart="onDragStart(event)">
-                                    <strong>@product.Name</strong><br />
-                                    @product.Gramms г, Б: @product.Protein г, Ж: @product.Fats г, У: @product.Carbs г, Ккал: @product.Calories
-                                </div>
+                                    <div class="food-item"
+                                         data-product-id="@product.Name"
+                                         data-protein="@product.Protein"
+                                         data-fats="@product.Fats"
+                                         data-carbs="@product.Carbs"
+                                         data-calories="@product.Calories"
+                                         draggable="true"
+                                         ondragstart="onDragStart(event)">
+
+                                        <strong>@product.Name</strong><br />
+                                        <input type="number"
+                                               placeholder="Грамм"
+                                               value="100"
+                                               step="any"
+                                               min="0"
+                                               style="width: 80px;"
+                                               oninput="updateNutrition(this)" />
+
+                                        <div class="nutrition">
+                                            Б: <span class="protein">@product.Protein</span> г,
+                                            Ж: <span class="fats">@product.Fats</span> г,
+                                            У: <span class="carbs">@product.Carbs</span> г,
+                                            Ккал: <span class="calories">@product.Calories</span>
+                                        </div>
+                                    </div>
+
                             }
                         </div>
                     </div>
@@ -62,12 +85,11 @@
         </div>
     </section>
 
-    <section class="summary card">
-        <h2>📊 Summary</h2>
-        <p id="totals">Total Calories, Proteins, Fats, Carbs will be shown here.</p>
-        <button onclick="exportPlan()">Export Plan</button>
-    </section>
+        <section class="summary card">
+            <h2>📊 Summary</h2>
+            <p id="totals">Total Calories, Proteins, Fats, Carbs will be shown here.</p>
+            <button onclick="exportPlan()">Export Plan</button>
+        </section>
 </div>
-
 <script src="js/site.js"></script>
 </body>
