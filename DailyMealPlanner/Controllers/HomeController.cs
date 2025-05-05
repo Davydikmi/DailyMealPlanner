@@ -26,6 +26,9 @@ namespace DailyMealPlanner.Controllers
         {
             var result = new
             {
+                Breakfast = meals.breakfast,
+                Lunch = meals.lunch,
+                Dinner = meals.dinner,
                 Total = new
                 {
                     Calories = meals.TotalDayCalories,

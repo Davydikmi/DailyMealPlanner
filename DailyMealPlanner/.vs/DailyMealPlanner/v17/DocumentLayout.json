@@ -11,20 +11,16 @@
       "RelativeMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|c:\\\u043A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\asp.net\\lab2 oo\u043F\\dailymealplanner\\dailymealplanner\\data\\meal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|solutionrelative:data\\meal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|c:\\\u043A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\asp.net\\lab2 oo\u043F\\dailymealplanner\\dailymealplanner\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|c:\\\u043A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\asp.net\\lab2 oo\u043F\\dailymealplanner\\dailymealplanner\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|c:\\\u043A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\asp.net\\lab2 oo\u043F\\dailymealplanner\\dailymealplanner\\data\\mealservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|solutionrelative:data\\mealservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|c:\\\u043A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\asp.net\\lab2 oo\u043F\\dailymealplanner\\dailymealplanner\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|c:\\\u043A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\asp.net\\lab2 oo\u043F\\dailymealplanner\\dailymealplanner\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|c:\\\u043A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\asp.net\\lab2 oo\u043F\\dailymealplanner\\dailymealplanner\\data\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,29 +54,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "site.css",
               "DocumentMoniker": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
               "ToolTip": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAAAI0AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAAAIQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-30T17:08:51.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Meal.cs",
-              "DocumentMoniker": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\Data\\Meal.cs",
-              "RelativeDocumentMoniker": "Data\\Meal.cs",
-              "ToolTip": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\Data\\Meal.cs",
-              "RelativeToolTip": "Data\\Meal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T15:27:41.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T17:08:51.634Z"
             },
             {
               "$type": "Document",
@@ -90,10 +72,9 @@
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAADEAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAwFgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-27T19:56:30.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T19:56:30.646Z"
             },
             {
               "$type": "Document",
@@ -103,40 +84,38 @@
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
               "ToolTip": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\wwwroot\\js\\site.js",
               "RelativeToolTip": "wwwroot\\js\\site.js",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAAAF4AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-04-28T22:43:23.169Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAAB8AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAB4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T19:57:13.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T19:57:13.61Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "MealService.cs",
               "DocumentMoniker": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\Data\\MealService.cs",
               "RelativeDocumentMoniker": "Data\\MealService.cs",
               "ToolTip": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\Data\\MealService.cs",
               "RelativeToolTip": "Data\\MealService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T22:08:07.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T22:08:07.874Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Person.cs",
               "DocumentMoniker": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\Data\\Person.cs",
               "RelativeDocumentMoniker": "Data\\Person.cs",

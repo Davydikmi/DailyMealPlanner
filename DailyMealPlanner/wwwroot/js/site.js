@@ -1,4 +1,6 @@
-﻿document.addEventListener("DOMContentLoaded", () => {
+﻿
+// Запрос для подсчета калорий пользователя
+document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("calc-btn").addEventListener("click", async () => {
         const weight = parseFloat(document.getElementById("weight").value);
         const height = parseFloat(document.getElementById("height").value);
@@ -22,6 +24,7 @@
     });
 });
 
+// Функция для поисковой строки продуктов
 function filterCatalog() {
     const query = document.getElementById("search").value.toLowerCase();
     const categories = document.querySelectorAll(".category");
@@ -78,31 +81,14 @@ function setupDragAndDrop() {
             const html = e.dataTransfer.getData("text/html");
             const node = document.createRange().createContextualFragment(html).firstChild;
 
-            // Убираем возможность снова перетаскивать внутри meal
             node.classList.add("dropped");
             node.setAttribute("draggable", "false");
 
-            // Разрешаем клик для удаления
             node.addEventListener("dblclick", () => node.remove());
 
             area.appendChild(node);
         });
     });
-}
-
-function updateNutrition(input) {
-    const grams = parseFloat(input.value) || 0;
-    const container = input.closest(".food-item");
-
-    const protein = parseFloat(container.dataset.protein);
-    const fats = parseFloat(container.dataset.fats);
-    const carbs = parseFloat(container.dataset.carbs);
-    const calories = parseFloat(container.dataset.calories);
-
-    container.querySelector(".protein").textContent = (protein * grams / 100.0).toFixed(1);
-    container.querySelector(".fats").textContent = (fats * grams / 100.0).toFixed(1);
-    container.querySelector(".carbs").textContent = (carbs * grams / 100).toFixed(1);
-    container.querySelector(".calories").textContent = (calories * grams / 100.0).toFixed(0);
 }
 
 //-------- РАСКРЫТИЕ КАТЕГОРИЙ НА ПРОДУКТЫ --------
@@ -133,3 +119,92 @@ document.addEventListener("DOMContentLoaded", () => {
     setupDragAndDrop();
 });
 
+
+// Обновление КБЖУ при изменении граммовки продукта
+function updateNutrition(input) {
+    const grams = parseFloat(input.value) || 0;
+    const container = input.closest(".food-item");
+
+    const protein = parseFloat(container.dataset.protein);
+    const fats = parseFloat(container.dataset.fats);
+    const carbs = parseFloat(container.dataset.carbs);
+    const calories = parseFloat(container.dataset.calories);
+
+    container.querySelector(".protein").textContent = (protein * grams / 100.0).toFixed(1);
+    container.querySelector(".fats").textContent = (fats * grams / 100.0).toFixed(1);
+    container.querySelector(".carbs").textContent = (carbs * grams / 100).toFixed(1);
+    container.querySelector(".calories").textContent = (calories * grams / 100.0).toFixed(0);
+}
+
+
+// Вывод данных обо всех приемах пищи за день
+function exportPlan() {
+    const meals = ["breakfast", "lunch", "dinner"];
+    let html = "<h3>🧾 Detailed Breakdown</h3>";
+
+    let dayTotal = {
+        calories: 0,
+        protein: 0,
+        fats: 0,
+        carbs: 0,
+        grams: 0
+    };
+
+    meals.forEach(mealId => {
+        const mealDiv = document.getElementById(mealId);
+        const items = mealDiv.querySelectorAll(".food-item");
+
+        let mealTotal = {
+            calories: 0,
+            protein: 0,
+            fats: 0,
+            carbs: 0,
+            grams: 0
+        };
+
+        items.forEach(item => {
+            const grams = parseFloat(item.querySelector("input").value) || 0;
+            const protein = parseFloat(item.querySelector(".protein").textContent) || 0;
+            const fats = parseFloat(item.querySelector(".fats").textContent) || 0;
+            const carbs = parseFloat(item.querySelector(".carbs").textContent) || 0;
+            const calories = parseFloat(item.querySelector(".calories").textContent) || 0;
+
+            mealTotal.grams += grams;
+            mealTotal.protein += protein;
+            mealTotal.fats += fats;
+            mealTotal.carbs += carbs;
+            mealTotal.calories += calories;
+
+            // суммируем в дневную статистику
+            dayTotal.grams += grams;
+            dayTotal.protein += protein;
+            dayTotal.fats += fats;
+            dayTotal.carbs += carbs;
+            dayTotal.calories += calories;
+        });
+
+        html += `
+            <p><strong>${mealDiv.querySelector("h3").textContent}:</strong><br>
+            Грамм: ${mealTotal.grams.toFixed(0)} г,
+            Б: ${mealTotal.protein.toFixed(1)} г,
+            Ж: ${mealTotal.fats.toFixed(1)} г,
+            У: ${mealTotal.carbs.toFixed(1)} г,
+            Ккал: ${mealTotal.calories.toFixed(0)}</p>
+        `;
+    });
+
+    // ➕ Добавим дневную сводку
+    html += `
+        <hr>
+        <p><strong>ИТОГО за день:</strong><br>
+        Грамм: ${dayTotal.grams.toFixed(0)} г,
+        Б: ${dayTotal.protein.toFixed(1)} г,
+        Ж: ${dayTotal.fats.toFixed(1)} г,
+        У: ${dayTotal.carbs.toFixed(1)} г,
+        Ккал: ${dayTotal.calories.toFixed(0)}</p>
+    `;
+
+    const breakdown = document.getElementById("mealBreakdown");
+    breakdown.innerHTML = html;
+    breakdown.classList.remove("hidden");
+}
