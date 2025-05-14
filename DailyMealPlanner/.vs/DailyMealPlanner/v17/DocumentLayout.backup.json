@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|c:\\\u043A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\asp.net\\lab2 oo\u043F\\dailymealplanner\\dailymealplanner\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|c:\\\u043A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\asp.net\\lab2 oo\u043F\\dailymealplanner\\dailymealplanner\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|c:\\\u043A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\asp.net\\lab2 oo\u043F\\dailymealplanner\\dailymealplanner\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{141708F6-8515-4151-A8B2-62B587F5CFD4}|DailyMealPlanner.csproj|c:\\\u043A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\asp.net\\lab2 oo\u043F\\dailymealplanner\\dailymealplanner\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,25 +66,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAwFgAAAAfAAAAAAAAAA==",
+              "ToolTip": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-27T19:56:30.646Z"
+              "WhenOpened": "2025-04-27T19:56:30.646Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "site.js",
               "DocumentMoniker": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
               "ToolTip": "C:\\\u041A\u0430\u0440\u0442\u0438\u043D\u043A\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ASP.NET\\Lab2 OO\u041F\\DailyMealPlanner\\DailyMealPlanner\\wwwroot\\js\\site.js",
               "RelativeToolTip": "wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-04-28T22:43:23.169Z",
               "EditorCaption": ""

@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const age = parseInt(document.getElementById("age").value);
         const activity = parseFloat(document.getElementById("activity").value);
 
+        // отправка запроса на сервер для подсчета дневных каллорий
         const response = await fetch("/Home/CalculateCalories", {
             method: "POST",
             headers: {
@@ -169,13 +170,14 @@ function exportPlan() {
             const carbs = parseFloat(item.querySelector(".carbs").textContent) || 0;
             const calories = parseFloat(item.querySelector(".calories").textContent) || 0;
 
+            // суммирование для статистики по приемам пищи
             mealTotal.grams += grams;
             mealTotal.protein += protein;
             mealTotal.fats += fats;
             mealTotal.carbs += carbs;
             mealTotal.calories += calories;
 
-            // суммируем в дневную статистику
+            // суммирование для дневной статистики
             dayTotal.grams += grams;
             dayTotal.protein += protein;
             dayTotal.fats += fats;
@@ -193,7 +195,6 @@ function exportPlan() {
         `;
     });
 
-    // ➕ Добавим дневную сводку
     html += `
         <hr>
         <p><strong>ИТОГО за день:</strong><br>

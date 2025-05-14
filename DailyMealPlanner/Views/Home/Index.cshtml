@@ -1,5 +1,5 @@
 ﻿@model DailyMealPlanner.Models.HomeViewModel
-
+@using System.Globalization
 
 <body>
 <div class="planner-wrapper">
@@ -44,10 +44,10 @@
                             {
                                     <div class="food-item"
                                          data-product-id="@product.Name"
-                                         data-protein="@product.Protein"
-                                         data-fats="@product.Fats"
-                                         data-carbs="@product.Carbs"
-                                         data-calories="@product.Calories"
+                                         data-protein="@product.Protein.ToString(CultureInfo.InvariantCulture)"
+                                         data-fats="@product.Fats.ToString(CultureInfo.InvariantCulture)"
+                                         data-carbs="@product.Carbs.ToString(CultureInfo.InvariantCulture)"
+                                         data-calories="@product.Calories.ToString(CultureInfo.InvariantCulture)"
                                          draggable="true"
                                          ondragstart="onDragStart(event)">
 
